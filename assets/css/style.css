@@ -20,20 +20,33 @@ body {
     background-color: #ffffff;
 }
 
-.ul-menu-color-home {
+.ul-menu-color-home,
+.progress-bar-basic {
     background-color: #572B36;
 }
 
-.ul-menu-color-resume {
+.ul-menu-color-resume,
+.progress-bar-success {
     background-color: #DA7B93;
 }
 
-.ul-menu-color-contact {
+.ul-menu-color-contact,
+.progress-bar-info {
     background-color: #9ABFBF;
 }
 
-.ul-menu-color-download {
+.ul-menu-color-download,
+.progress-bar-warning {
     background-color: #2F4454;
+}
+
+.ul-menu-color-interests,
+.progress-bar-danger {
+    background-color: #C67947;
+}
+
+.ul-menu-color-github {
+    background-color: #1C3334;
 }
 
 .bg-color-personal-info {
@@ -379,6 +392,13 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: #9ABFBF;
     color: #fafafa;
+}
+
+/*-------------------- Interests ---------*/
+
+
+div#map {
+    min-height: 360px;
 }
 
 /*-------------------- Media Queries ---------*/
